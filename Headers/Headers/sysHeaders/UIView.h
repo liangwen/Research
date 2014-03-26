@@ -190,6 +190,7 @@ NS_CLASS_AVAILABLE_IOS(2_0) @interface UIView : UIResponder<NSCoding, UIAppearan
     } _viewFlags;
 }
 
+// CALayer 层的class
 + (Class)layerClass;                        // default is [CALayer class]. Used when creating the underlying layer for the view.
 
 - (id)initWithFrame:(CGRect)frame;          // default initializer

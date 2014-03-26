@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		B63C225418D5F602008117A7 /* UITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCell.h; sourceTree = "<group>"; };
 		B63C225518D5FEE0008117A7 /* CALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayer.h; sourceTree = "<group>"; };
+		B66AF3D718DDD7CE00CDBC67 /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
 		B674F75C18D4B7FE009D3B58 /* Headers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Headers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B674F75F18D4B7FE009D3B58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B674F76118D4B7FE009D3B58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,6 +55,7 @@
 		B674F79618D4B845009D3B58 /* UITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableView.h; sourceTree = "<group>"; };
 		B674F79718D4B8B1009D3B58 /* UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollView.h; sourceTree = "<group>"; };
 		B674F79818D4B8B1009D3B58 /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView.h; sourceTree = "<group>"; };
+		B6EEA23118DEB8E400986AF0 /* UIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWindow.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,8 @@
 		B674F79418D4B845009D3B58 /* sysHeaders */ = {
 			isa = PBXGroup;
 			children = (
+				B6EEA23118DEB8E400986AF0 /* UIWindow.h */,
+				B66AF3D718DDD7CE00CDBC67 /* NSObject.h */,
 				B63C225518D5FEE0008117A7 /* CALayer.h */,
 				B63C225418D5F602008117A7 /* UITableViewCell.h */,
 				B674F79718D4B8B1009D3B58 /* UIScrollView.h */,

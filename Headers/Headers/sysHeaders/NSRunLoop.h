@@ -25,6 +25,7 @@ FOUNDATION_EXPORT NSString * const NSRunLoopCommonModes NS_AVAILABLE(10_5, 2_0);
 //获得主线程的run loop
 + (NSRunLoop *)mainRunLoop NS_AVAILABLE(10_5, 2_0);
 
+//  当前的运行模式，只有在运行的状态下返回才有效。
 - (NSString *)currentMode;
 - (CFRunLoopRef)getCFRunLoop;
 
@@ -48,6 +49,7 @@ FOUNDATION_EXPORT NSString * const NSRunLoopCommonModes NS_AVAILABLE(10_5, 2_0);
 - (void)run;
 
 //同run方法，增加超时参数limitDate，避免进入无限循环。使用在UI线程（亦即主线程）上，可以达到暂停的效果。
+// 主要是避免死循环
 - (void)runUntilDate:(NSDate *)limitDate;
 
 //等待消息处理，好比在PC终端窗口上等待键盘输入。一旦有合适事件（mode相当于定义了事件的类型）被处理了，则立刻返回；
